@@ -1,0 +1,42 @@
+[
+  {
+    "name": "S3 Interiors",
+    "url": "http://s3interiors.co.uk/",
+    "imageUrl": "https://res.cloudinary.com/drboxw7mh/image/upload/v1619792358/interior_design_website.png",
+    "description": "",
+    "githubURL": "https://github.com/alinepasetti/s3-interiors",
+    "technologies": "React.js"
+  },
+  {
+    "name": "Master Lara",
+    "url": "https://master-lara.herokuapp.com/",
+    "imageUrl": "https://res.cloudinary.com/drboxw7mh/image/upload/v1591868421/Screenshot_2020-06-11_at_10.40.13_xrspjv.png",
+    "description": "",
+    "githubURL": "https://github.com/anaflaviafoppa/masterlara/",
+    "technologies": "Node.js, Express, Handlebars, MongoDB"
+  },
+  {
+    "name": "Hey Friday",
+    "url": "https://heyfriday.herokuapp.com/",
+    "imageUrl": "https://res.cloudinary.com/drboxw7mh/image/upload/v1591868347/Screenshot_2020-06-11_at_10.37.40_sji8x6.png",
+    "description": "",
+    "githubURL": "https://github.com/alinepasetti/rota-de-drinks",
+    "technologies": "React.js, Node.js, Express, MongoDB"
+  },
+  {
+    "name": "Equalizer",
+    "url": "https://worldequalizer.herokuapp.com/",
+    "imageUrl": "https://res.cloudinary.com/drboxw7mh/image/upload/v1591869029/Screenshot_2020-06-11_at_10.50.24_lb4kli.png",
+    "description": "",
+    "githubURL": "https://github.com/alinepasetti/unwomen",
+    "technologies": "Node.js, Express, Handlebars, MongoDB"
+  },
+  {
+    "name": "Salem, Lost in Amsterdam",
+    "url": "http://salemlostinamsterdam.netlify.com/",
+    "imageUrl": "https://res.cloudinary.com/drboxw7mh/image/upload/v1591715716/Entry_of_game2_lowyve.png",
+    "description": "",
+    "githubURL": "https://github.com/alinepasetti/Project-1",
+    "technologies": "Canvas, Javascript"
+  }
+]

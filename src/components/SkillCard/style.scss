@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+.skill__card {
+  @media screen and (max-width: 500px) {
+    width: 47%;
+    margin: 0;
+  }
+  color: aliceblue;
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+  padding: 1em;
+  margin: 1em 0.7em;
+  width: 20%;
+  min-width: 100px;
+  text-align: center;
+  h5 {
+    margin: 1.5em auto;
+  }
+  img {
+    width: 50%;
+    max-height: 55px;
+  }
+}

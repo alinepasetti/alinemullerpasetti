@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+$pink: #f42479ff;
+$gray: #666;
+$yellow: #f1c232;
+
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  @media screen and (min-width: 980px) {
+    display: flex;
+  }
+  height: 100vh;
+  main {
+    @media screen and (max-width: 980px) {
+      width: 100%;
+    }
+    width: 78%;
+  }
+}
+
+// About page
+.about__page {
+  padding: 1.25em;
+  height: 100%;
+  margin: 0;
+  background-image: url('/images/tinta.gif');
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  @media screen and (max-width: 980px) {
+    background-size: cover;
+    background-color: #f42479b8;
+    background-blend-mode: multiply;
+    min-height: calc(100vh - 67.81px);
+    padding: 2em;
+    color: aliceblue;
+  }
+  .title__yellow {
+    @media screen and (max-width: 980px) {
+      margin: 0;
+    }
+    color: $yellow;
+    font-family: 'Montserrat', sans-serif;
+  }
+  section.timeline {
+    margin-top: 3.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-left: solid 3px $yellow;
+    list-style: none;
+    position: relative;
+    .arrow-up {
+      width: 0;
+      height: 0;
+      border-left: 20px solid transparent;
+      border-right: 20px solid transparent;
+      border-bottom: 30px solid $yellow;
+      position: absolute;
+      left: -21.5px;
+      top: -30px;
+    }
+    li {
+      @media screen and (max-width: 980px) {
+        color: $yellow;
+        padding-bottom: 0.5em;
+        > strong {
+          color: aliceblue;
+        }
+      }
+      color: $gray;
+      font-size: 1.5em;
+      padding-left: 0.25em;
+      text-indent: -0.7em;
+      &::before {
+        content: '• ';
+        color: $yellow;
+        padding-right: 1em;
+        font-size: 2em;
+      }
+    }
+  }
+}
+
+// Skills page
+.skills__page {
+  @media screen and (max-width: 980px) {
+    min-height: calc(100vh - 79px);
+  }
+  padding: 1.25em 2em;
+  background-image: url('/images/ameba.gif');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #182a46ff;
+  height: 100%;
+  h1 {
+    color: #f42479;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+  }
+  .skills_section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: center;
+    padding: 0 1em;
+  }
+}
+
+// Under construction page
+.underconstruction__page {
+  @media screen and (max-width: 479px) {
+    min-height: calc(100vh - 67.81px);
+  }
+  height: 100%;
+  width: 100%;
+  background-image: url('/images/ball.gif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+  }
+}
+
+.project__page {
+  display: flex;
+}
