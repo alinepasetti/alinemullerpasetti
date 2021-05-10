@@ -23,7 +23,7 @@ class ProjectsCard extends Component {
             onMouseEnter={this.projectHover}
             className="project__card"
             href={this.props.project.url}
-            target="__blank"
+            target={`${this.props.project.name}__blank`}
           >
             <img src={this.props.project.imageUrl} alt={this.props.project.name} />
           </a>
@@ -33,7 +33,7 @@ class ProjectsCard extends Component {
             onMouseEnter={this.projectHover}
             className="project__card-on-hover"
             href={this.props.project.url}
-            target="__blank"
+            target={`${this.props.project.name}__blank`}
           >
             <div className="absolute">
               <h3>{this.props.project.name}</h3>
